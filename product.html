@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Product details</title>
+</head>
+
+<body>
+    <nav class="navbar d-flex flex-wrap navbar-expand-lg bg-body-tertiary bg-opacity-50">
+        <div class="container-fluid d-flex">
+            <a class="navbar-brand" href="index.html">
+                <img src="icons/logo.png" alt="logo" height="70">
+                Techie Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                </ul>
+
+                <a href="profile.html">
+                    <img class="icon" src="icons/user.png" alt="user" height="25px">
+                </a>
+
+                <a href="cart.html">
+                    <img class="icon" src="icons/cart.png" alt="cart" height="25px">
+                </a>
+
+                <form class="d-flex" role="search">
+                    <input
+                        class="form-control me-2 text-dark border-dark-subtle border border-primary rounded-pill border-3"
+                        type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary btn-lg rounded-pill border-3" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Menu -->
+        <ul
+            class="nav container-fluid d-flex flex-wrap justify-content-center nav-fill bg-info-subtle border border-3 border-info-subtle rounded-4">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Mobiles/Tablets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Laptops</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Headphones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Accessories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Televisions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home appliances</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">More...</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+    <br><br>
+
+    <!-- Product Details -->
+    <div class="product-d container d-flex flex-wrap ">
+
+        <div class="container-fluid d-flex justify-content-around">
+            <div id="carouselExample" class="carousel carousel-dark slide d-flex justify-content-around">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863401?imwidth=480"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863398?imwidth=480"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863384?imwidth=480"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <div class="product-details">
+                <h2> SAMSUNG Galaxy S23 Ultra 5G (Green, 256 GB) (12 GB RAM)</h2>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+
+                <h2> ₹1,24,999 </h2>
+                <p><del>₹1,49,999</del></p>
+
+
+                <p> Free Delivery</p>
+                <p class="highlights">
+                <p class="text-bg-light">Highlights</p>
+                12 GB RAM | 256 GB ROM
+                <br>
+                17.27 cm (6.8 inch) Quad HD+ Display
+                <br>
+                200MP + 10MP + 12MP + 10MP | 12MP Front Camera
+                <br>
+                5000 mAh Lithium Ion Battery
+                <br>
+                Qualcomm Snapdragon 8 Gen 2 Processor
+                </p>
+
+                <p class="description container d-flex flex-wrap">
+                <p class="text-bg-light">Description</p>
+
+                Get a smartphone for yourself that can detect your moods and react appropriately. The Samsung Galaxy
+                Ultra's potent processor and advanced camera sensor can handle low light and noise reduction. The
+                phone's Snapdragon 8 Gen 2 processor, which also provides a long battery life to carry you through
+                even the busiest days, also enables quick gaming and video streaming. You can also launch Expert
+                RAW to take high-resolution RAW photos that are vivid and packed with information. Moreover,
+                Dynamic AMOLED 2X offers clear, brilliant details in both bright and low-light conditions.
+                Additionally, to smooth up gaming and save power, the refresh rate is automatically optimised with
+                120 Hz technology.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="buttons d-flex justify-content-around">
+        <a href="cart.html" class="btn btn-lg btn-warning">Add to Cart</a>
+        <a href="cart.html" class="btn btn-lg btn-primary">Buy Now</a>
+    </div>
+
+
+
+    <div class="rating-review height-100 container d-flex justify-content-around align-items-center">
+        <div class="card p-3">
+            <div class="d-flex justify-content-around align-items-center">
+                <div class="ratings">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h5 class="review-count">12212 Rating</h5>
+            </div>
+
+
+            <div class="mt-5 d-flex justify-content-between align-items-center">
+                <h5 class="review-stat">Camera</h5>
+                <div class="small-ratings">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+
+            </div>
+
+            <div class="mt-1 d-flex justify-content-between align-items-center">
+                <h5 class="review-stat">Battery</h5>
+                <div class="small-ratings">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+
+            <div class="mt-1 d-flex justify-content-between align-items-center">
+                <h5 class="review-stat">Design</h5>
+                <div class="small-ratings">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+
+            <div class="mt-1 d-flex justify-content-between align-items-center">
+                <h5 class="review-stat">Display</h5>
+                <div class="small-ratings">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="reviews card p-1">
+            <h2 class="reviews row-gap-5">Reviews</h2>
+
+            <span class="border-bottom"></span>
+
+            <div class="d-flex flex-wrap">
+
+                <div class="small-ratings">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                </div>
+
+                <pre class="review-stat row-gap-5">  Awesome  </pre>
+                <p class="review-name text-dark-subtle">-hemanth</p>
+                <br>
+                <p>I am thankful to almighty god to let me buy my first flagship dream device. This works like
+                    the smoothest butter I have ever seen. You throw anything on it, and it makes it work like
+                    a charm.</p>
+            </div>
+
+            <span class="border-bottom"></span>
+
+
+            <div class="d-flex flex-wrap">
+
+                <div class="small-ratings">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                </div>
+
+                <pre class="review-stat row-gap-5">  Brilliant  </pre>
+                <p class="review-name text-dark-subtle">-aryan</p>
+                <br>
+                <p>Excellent product and awesome features , zoom is beyond comparison
+                    Excellent display and good battery life. S pen is a master in it's own league.
+                    While sticking screen guards Kindly make sure glue doesn't leak to the speaker or S pen modules as
+                    it may create an issue
+                    Inorder to avail the offer
+                    Happy purchasing</p>
+            </div>
+
+            <span class="border-bottom"></span>
+
+            <div class="d-flex flex-wrap">
+
+                <div class="small-ratings">
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                </div>
+
+                <pre class="review-stat row-gap-5">  Worth every penny  </pre>
+                <p class="review-name text-dark-subtle">-chittaranjan</p>
+                <br>
+                <p>I ordered the product during pre-book period, exchanging my old OP6.
+                    The product is great, the seller delivered in time. The exchange process with Flipkart was also
+                    great.
+                    After the return period I got my Galaxy buds 2 and Watch 4 classic as well.
+                    The camera quality is excellent, the battery life is great as well. I am getting around 10 hours
+                    SOT,
+                    and 24 hours total time in a full recharge.OneUI is one of the best Android experience you can get.
+                    Overall a great deal.</p>
+            </div>
+
+            <span class="border-bottom"></span>
+
+            <div class="buttons-review d-flex justify-content-around">
+                <a href="#" class="btn btn-lg btn-warning">Submit a Review</a>
+                <a href="#" class="btn btn-lg btn-primary">Show all Reviews</a>
+            </div>
+            
+    
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer-all text-center text-white bg-dark">
+
+        <br>
+        <section class="">
+            <div class="container-fluid text-center text-md-start mt-5">
+                <div class="row mt-3">
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">Mobiles</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laptops</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Headphones</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Accessories</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">FAQ</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Terms of Use</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p> IIIT Bangalore, Electronic city</p>
+                        <p>
+                            techiestore@iiitb.ac.in
+                        </p>
+                        <p> + 91 23456788</p>
+                        <p> + 91 23456789</p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Social
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Youtube</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Twitter</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Instagram</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Facebook</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </footer>
+</body>
+
+</html>

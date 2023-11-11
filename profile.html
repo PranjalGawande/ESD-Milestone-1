@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Profile</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-opacity-50">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="icons/logo.png" alt="logo" height="70">
+                Techie Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                </ul>
+
+                <a href="profile.html">
+                    <img class="icon" src="icons/user.png" alt="user" height="25px">
+                </a>
+
+                <a href="cart.html">
+                    <img class="icon" src="icons/cart.png" alt="cart" height="25px">
+                </a>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 text-dark border-dark-subtle border border-primary rounded-pill border-3"
+                        type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary btn-lg rounded-pill border-3" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu -->
+    <ul class="nav justify-content-center nav-fill bg-info-subtle border border-3 border-info-subtle rounded-4">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Mobiles/Tablets</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Laptops</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Headphones</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Accessories</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Televisions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home appliances</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">More...</a>
+        </li>
+    </ul>
+
+    <br><br>
+
+    <!-- Profile page -->
+    <div class="container d-flex flex-wrap justify-content-around">
+        <h1>My Account</h1>
+        <div class="profile-img d-flex container justify-content-center">
+            <img src="https://m.media-amazon.com/images/I/71uCDkpip7L._AC_UF894,1000_QL80_.jpg" alt="profile-img"
+                height="18%">
+        </div>
+        <div class="container-fluid text-center text-md-start mt-5">
+            <div class="row mt-3 profile-fields">
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+                    <p class="text-uppercase fw-bold mb-4"> Name</p>
+                    <p class="text-uppercase fw-bold mb-4">Email Address</p>
+                    <p class="text-uppercase fw-bold mb-4"> Mobile Number</p>
+                    <p class="text-uppercase fw-bold mb-4"> Address</p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <p class=" fw-bold mb-4"> Pranjal</p>
+                    <p class=" fw-bold mb-4">pranjal@gmail.com</p>
+                    <p class=" fw-bold mb-4"> + 91 23456788</p>
+                    <p class=" fw-bold mb-4"> IIITB</p>
+                </div>
+            </div>
+            <div class="edit-btn d-flex justify-content-center">
+                <a href="#" class="btn btn-warning ">Edit</a>
+            </div>
+        </div>
+
+        <!-- Recent Orders -->
+        <div class="recent-orders d-flex container justify-content-center">
+            <h3>Recent Orders</h3>
+        </div>
+        <div class="recent-orders-cards container d-flex justify-content-around">
+            <div class="card" style="width: 18rem;">
+                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70"
+                    class="card-img-top" alt="Samsung galaxy s23 ultra">
+                <div class="card-body">
+                    <h5><a href="product.html"
+                        class="card-title link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">
+                        SAMSUNG Galaxy S23 Ultra 5G
+                    </a>
+                </h5>
+                <div class="prices d-flex justify-content-between">
+                    <h6 class="curr-price">₹1,24,999 </h6>
+                    <p><del>₹1,49,999</del></p>
+                </div>
+
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+
+                    <p class="card-text">12 GB RAM | 256 GB ROM.</p>
+                    <a href="cart.html" class="btn btn-primary">Buy Again</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <br><br><br><br>
+
+
+    <!-- Footer -->
+    <footer class="footer-all text-center text-white bg-dark">
+
+        <br>
+        <section class="">
+            <div class="container-fluid text-center text-md-start mt-5">
+                <div class="row mt-3">
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="index.html" class="text-reset">Mobiles</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laptops</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Headphones</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Accessories</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">FAQ</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Terms of Use</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p> IIIT Bangalore, Electronic city</p>
+                        <p>
+                            techiestore@iiitb.ac.in
+                        </p>
+                        <p> + 91 23456788</p>
+                        <p> + 91 23456789</p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Social
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Youtube</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Twitter</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Instagram</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Facebook</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </footer>
+</body>
+
+</html>

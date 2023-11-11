@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(255, 246, 246, 0), rgb(184, 242, 251) 200%);
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images8.alphacoders.com/133/1337208.jpeg);
+    background-size: cover;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(186, 237, 245) 200%);
+
+    width: 100%;
+    height: 10%;
+
+}
+
+.navbar-brand {
+    color: rgb(18, 149, 205) !important;
+    font-family: "Audiowide", sans-serif !important;
+    font-size: 200% !important;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.nav-item {
+    font-size: large !important;
+    font-weight: bold;
+}
+
+.border-dark {
+    color: rgb(221, 15, 15) !important;
+}
+
+.border {
+    color: rgb(23, 147, 255) !important;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.checked {
+    color: orange;
+}
+
+.product-d {
+    margin-top: 2%;
+}
+
+.buttons {
+    margin-left: 15%;
+    margin-right: 55%;
+    margin-top: -10%;
+}
+
+.highlights {
+    font-size: 120% !important;
+    font-weight: 500;
+}
+
+.product-details {
+    margin-left: 5% !important;
+    font-weight: 500;    
+}
+
+.rating-review {
+    margin-top: 15%;
+}
+
+.buttons-review {
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+#carouselExample  {
+    height: 70% !important;
+    width: 250% !important; 
+}
+
+.card {
+    width: 380px;
+    border: none;
+    height: 280px;
+}
+
+.prices {
+    margin-right: 35%;
+}
+
+.curr-price {
+    font-size: large;
+    font-weight: 600;
+}
+
+.ratings {
+    margin-right: 10px;
+}
+
+.ratings i {
+
+    color: #cecece;
+    font-size: 32px;
+}
+
+.rating-color {
+    color: #fbc634 !important;
+}
+
+.review-count {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 24px !important;
+}
+
+.small-ratings i {
+    color: #cecece;
+}
+
+.review-stat {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.reviews {
+    min-width: none !important;
+    max-width: max-content !important;
+    width: 800px;
+}
+
+.review-more {
+    padding-left: 45%;
+    font-size: larger !important;
+}
+
+.profile-fields {
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+}
+
+.profile-img {
+    margin-top: 50 px;
+    margin-bottom: -750px !important;
+}
+
+.recent-orders {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.remove {
+    margin-left: 50px !important;
+}
+
+.checkout {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.footer-all {
+    margin-top: 10%;
+}
